@@ -35,6 +35,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec'
   gem 'rspec-rails'
+end
+
+group :test do
   gem 'database_cleaner'
   # Programmatically start and stop ES for tests
   gem 'elasticsearch-extensions'
